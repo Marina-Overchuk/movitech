@@ -1,0 +1,36 @@
+.container {
+  max-width: 1520px;
+  padding-inline: 15px;
+  margin: 0 auto;
+  @media screen and (max-width: 1589px) {
+    max-width: 1220px;
+  }
+  @media screen and (max-width: 1279px) {
+    max-width: 960px;
+  }
+  @media screen and (max-width: 991px) {
+    max-width: 90%;
+  }
+  @media screen and (max-width: 767px) {
+    max-width: 100%;
+  }
+}
+
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1280px,
+//   xxl: 1590px
+// );
+
+// $container-max-widths: (
+//   sm: 100%,
+//   md: 90%,
+//   lg: 960px,
+//   xl: 1220px,
+//   xxl: 1520px
+// );
+
+ 

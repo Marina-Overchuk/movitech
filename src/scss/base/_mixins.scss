@@ -1,0 +1,9 @@
+%padding-section {
+  padding-block: 100px;
+  @media screen and (max-width: 991px) {
+    padding-block: 80px;
+  }
+  @media screen and (max-width: 767px) {
+    padding-block: 60px;
+  }
+}
